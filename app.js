@@ -32,11 +32,12 @@ $(".add-train-btn").on("click", function(event) {
   console.log(newTrain.destination);
   console.log(newTrain.frequency);
   console.log(newTrain.firstTime);
+
+$("#name-input").val("");
+$("#destination-input").val("");
+$("#frequency-input").val("");
+$("#first-input").val("");
 });
-
-// // Alert
-// alert("Train successfully added");
-
 database.ref().on("child_added", function(childSnapshot, prevChildKey) {
   console.log(childSnapshot.val());
 
@@ -65,7 +66,7 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey) {
   // to calculate minutes till train,we store it in a variable
   var minToTrain = frequency - timeRemainder;
   // next train
-  var nxTrain = moment().add(minToTrain, "minutes").format("HH:mm A");
+  var nxTrain = moment().add(minToTrain, "minutes").format("hh:mm A");
   
 
   // Add each train's data into the table
