@@ -1,0 +1,8 @@
+.jumbotron{
+    background-color: rgb(250, 106, 81);
+    color: rgb(247, 247, 247);
+}
+
+body{
+    background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0331/0371/r2012_0601_2241a_shop_preview.png")
+}
