@@ -11,7 +11,7 @@ In this assignment, I've created a train schedule application that incorporates 
 
 ## Authors
 
-* **Priya Shah** - *coding work* - [PurpleBooth](https://github.com/PriyaDOIT)
+* **Priya Shah** - *coding work* - [Github](https://github.com/PriyaDOIT)
 
 ## Acknowledgments
 * Northwestern Coding Bootcamp for the idea and guidance
